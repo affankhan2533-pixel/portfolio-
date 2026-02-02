@@ -121,11 +121,11 @@ Let’s build the future—one innovation at a time 🚀
                 style={{ background: "linear-gradient(135deg, #8b5cf6, #ec4899, #f97316)" }}
               >
                 <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
-                  <img 
+                  {/* <img 
                     src={profileImage} 
                     alt="Affan Khan - Web Developer & UI/UX Designer" 
                     className="w-full h-full object-cover"
-                  />
+                  /> */}
                 </div>
               </div>
 
