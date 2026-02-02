@@ -1,8 +1,6 @@
 import { ArrowDown, Github, Linkedin, Instagram, MessageCircle } from "lucide-react";
-import { motion } from "framer-motion";
-import profileImage from "@/assets/profile.jpeg";
+import { motion } from "framer-motion";;
 import { Button } from "./ui/button";
-
 export function HeroSection() {
   return (
     <section
@@ -121,11 +119,11 @@ Let’s build the future—one innovation at a time 🚀
                 style={{ background: "linear-gradient(135deg, #8b5cf6, #ec4899, #f97316)" }}
               >
                 <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
-                  <Image
-                    src="/ayesha.webp"   
+                  <img
+                    src="/AFfan.port.jpeg"   
                     alt="Affan Khan - Web Developer & UI/UX Designer" 
                     className="w-full h-full object-cover">
-                  </Image>
+                  </img>
                 </div>
               </div>
 
