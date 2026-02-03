@@ -77,7 +77,7 @@ export function AboutSection() {
           <div className="space-y-8">
             <ScrollReveal direction="right">  
               <div className="space-y-4">
-                <span className="text-primary text-3xl">About Me</span>
+                <span className="text-primary font-bold text-3xl">About Me</span>
                 <h2 className="font-display text-4xl md:text-5xl font-bold">
                   I'm <span className="gradient-text">AFFAN KHAN</span>, a
                   <span className="text-secondary"> BVoc & AIML Student</span>

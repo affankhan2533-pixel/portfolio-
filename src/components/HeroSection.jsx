@@ -8,9 +8,9 @@ export function HeroSection() {
       className="min-h-screen gradient-hero relative overflow-hidden flex items-center"
     >
       {/* Decorative Blobs */}
-      <div className="absolute top-20 right-10 w-72 h-72 bg-violet-800/20 blob animate-float" />
+      {/* <div className="absolute top-20 right-10 w-72 h-72 bg-violet-800/20 blob animate-float" />
       <div className="absolute bottom-20 left-10 w-96 h-96 bg-pink-800/20 blob-2 animate-float-delayed" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-500/10 rounded-full blur-3xl" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-500/10 rounded-full blur-3xl" /> */}
 
       <div className="container mx-auto px-6 pt-24 pb-12 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -40,8 +40,8 @@ export function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
-                Hi, I'm{" "}
-                <span className="bg-gradient-to-r from-violet-400 via-pink-400 to-orange-400 bg-clip-text text-transparent">AFFAN KHAN</span>
+                Hi, I'm{""}
+                <span className="bg-gradient-to-r  from-red-300  to-violet-800 bg-clip-text text-transparent pl-2 text-6xl">AFFAN KHAN</span>
                 <span className="block text-3xl md:text-4xl lg:text-5xl mt-2">
                   <span className="text-pink-400">BVoc</span> <span className="text-muted-foreground">&</span> <span className="text-violet-400">AIML Student</span>
                 </span>
@@ -60,17 +60,17 @@ Let’s build the future—one innovation at a time 🚀
             </div>
 
             <motion.div 
-              className="flex flex-wrap gap-4"
+              className="flex flex-wrap  gap-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
             >
-              <Button className="bg-gradient-to-r from-violet-300 to-pink-200 hover:from-violet-700 hover:to-pink-600 text-white border-0">
+              <Button className="bg-gradient-to-r   from-violet-300 to-pink-200 hover:from-violet-700 hover:to-pink-600 text-white border-0">
                 View My Work
               </Button>
-              <Button variant="hero-outline">
+              {/* <Button variant="hero-outline">
                 Download CV
-              </Button>
+              </Button> */}
             </motion.div>
 
             {/* Social Links */}
@@ -152,7 +152,7 @@ Let’s build the future—one innovation at a time 🚀
         <motion.div 
           className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
           animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+          transition={{ duration: 0.5, repeat: Infinity, ease: "easeInOut" }}
         >
           <span className="text-xs text-muted-foreground">Scroll Down</span>
           <ArrowDown size={20} className="text-primary" />

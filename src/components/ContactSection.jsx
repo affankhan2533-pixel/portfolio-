@@ -53,7 +53,7 @@ export function ContactSection() {
       <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
-          <span className="text-primary font-medium">Get in Touch</span>
+          <span className="text-primary font-bold text-3xl">Get in Touch</span>
           <h2 className="font-display text-4xl md:text-5xl font-bold">
             Let's Work <span className="gradient-text">Together</span>
           </h2>

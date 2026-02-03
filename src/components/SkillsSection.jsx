@@ -67,8 +67,8 @@ export function SkillsSection() {
 
       <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
-        <ScrollReveal className="text-center max-w-2xl mx-auto mb-16 space-y-4">
-          <span className="text-violet-400 font-medium">What I Do</span>
+        <ScrollReveal className="text-center text-3xl font-bold max-w-2xl mx-auto mb-16 space-y-4">
+          <span className="text-violet-400  ">What I Do</span>
           <h2 className="font-display text-4xl md:text-5xl font-bold">
             My <span className="bg-gradient-to-r from-violet-400 to-pink-400 bg-clip-text text-transparent">Skills</span> & Services
           </h2>

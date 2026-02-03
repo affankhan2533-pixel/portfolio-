@@ -5,8 +5,8 @@ import { ScrollReveal, StaggerContainer, StaggerItem } from "./ScrollReveal";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A modern e-commerce solution with seamless checkout experience and responsive design.",
+    title: "FIGMA",
+    description: "Figma is UI/UX design",
     tags: ["React", "Node.js", "Stripe"],
     color: "from-primary to-coral-400",
     featured: true,
@@ -57,7 +57,7 @@ export function ProjectsSection() {
       <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
         <ScrollReveal className="text-center max-w-2xl mx-auto mb-16 space-y-4">
-          <span className="text-primary font-medium">My Work</span>
+          <span className="text-primary text-3xl font-bold">My Work</span>
           <h2 className="font-display text-4xl md:text-5xl font-bold">
             Featured <span className="gradient-text">Projects</span>
           </h2>
